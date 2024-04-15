@@ -2,7 +2,7 @@
 layout: default
 permalink: /blog/
 title: blog
-nav: true
+nav: false
 nav_order: 1
 pagination:
   enabled: true
@@ -26,7 +26,7 @@ pagination:
   <div class="header-bar">
     <h1>{{ site.blog_name }}</h1>
     <h2>{{ site.blog_description }}</h2>
-    <h5>{{ site.disclaimer }}</h5>
+    <h5>{{ site.blog_disclaimer }}</h5>
   </div>
   {% endif %}
 
