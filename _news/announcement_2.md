@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Served as a Paper Reviewer for CVPR'24
+Served as a Paper Reviewer for CVPR
