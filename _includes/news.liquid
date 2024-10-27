@@ -4,29 +4,25 @@
     {% assign news_by_year = news_by_year | sort: "name" | reverse %}
 
     {% for year_group in news_by_year %}
-      <h3>{{ year_group.name }}</h3>
-      <div class="table-responsive">
-        <table class="table table-sm table-borderless">
-          {% assign year_news = year_group.items | reverse %}
-          {% if include.limit and site.announcements.limit %}
-            {% assign news_limit = site.announcements.limit %}
-          {% else %}
-            {% assign news_limit = year_news.size %}
-          {% endif %}
-          
-          {% for item in year_news limit: news_limit %}
-            <tr>
-              <td>
-                {% if item.inline %}
-                  {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-                {% else %}
-                  <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                {% endif %}
-              </td>
-            </tr>
-          {% endfor %}
-        </table>
-      </div>
+      <strong>{{ year_group.name }}</strong>
+      <ul class="news-list">
+        {% assign year_news = year_group.items | reverse %}
+        {% if include.limit and site.announcements.limit %}
+          {% assign news_limit = site.announcements.limit %}
+        {% else %}
+          {% assign news_limit = year_news.size %}
+        {% endif %}
+
+        {% for item in year_news limit: news_limit %}
+          <li>
+            {% if item.inline %}
+              {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+            {% else %}
+              <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
     {% endfor %}
   {% else %}
     <p>No news so far...</p>

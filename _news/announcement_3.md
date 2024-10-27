@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper - "BRAVE: Broadening the visual encoding of vision-language models" published at ECCV'24 (Oral)
+Our paper - [BRAVE: Broadening the visual encoding of vision-language models](https://brave-vlms.epfl.ch/) published at ECCV'24 (Oral)
