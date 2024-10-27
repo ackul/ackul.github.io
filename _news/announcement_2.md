@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Served as a Paper Reviewer for CVPR
+Served on 2024 Program Committees for CVPR, NEURIPS, AiSEC, FPS, PoPETs, MMAI & ICLR
