@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Served on 2024 Program Committees for CVPR, NEURIPS, AiSEC, FPS, PoPETs, MMAI & ICLR
+Served on 2024 Program Committees for CVPR, NEURIPS, AiSEC, AAAI, FPS, PoPETs, MMAI & ICLR
