@@ -8,7 +8,7 @@ category: work
 related_publications: true
 ---
 
-Had the fun opportunity to join the judging committee at University of Toronto Hacks'25. Some memorable clicks from it.
+Had the opportunity to join the judging committee at University of Toronto Hacks'25. Some memorable clicks from it.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
