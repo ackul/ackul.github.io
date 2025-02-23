@@ -5,7 +5,7 @@ description: UofTHacks 12 Judging Event
 img: assets/img/achin_kulshrestha_uofthacks_solo.jpg
 omportance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
 Had the opportunity to join the judging committee at University of Toronto Hacks'25. Some memorable clicks from it.
@@ -19,12 +19,9 @@ Had the opportunity to join the judging committee at University of Toronto Hacks
     Judging deliberations
 </div>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/achin_kulshrestha_uofthacks_solo.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/achin_kulshrestha_uofthacks_3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/achin_kulshrestha_uofthacks_solo.jpg" title="group image of judges and mentors uofthacks" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
