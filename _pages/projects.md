@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Snapshots
+title: snapshots
 permalink: /projects/
 description: Commit to life’s repository
 nav: true
