@@ -1,8 +1,8 @@
 ---
 layout: page
-title: snapshots
+title: Snapshots
 permalink: /projects/
-description: Commit to life’s repository
+description: Chronicle of commits to life’s repository
 nav: true
 nav_order: 2
 display_categories: []
