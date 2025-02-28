@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Snapshots
-permalink: /projects/
-description: Chronicle of commits to life’s repository
+title: snapshots
+permalink: /snapshots/
+description: Commits to life's repository
 nav: true
 nav_order: 2
 display_categories: []
