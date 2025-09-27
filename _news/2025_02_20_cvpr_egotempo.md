@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper ["Omnia de EgoTempo: Benchmarking Temporal Understanding of Multi-Modal LLMs in Egocentric Videos"](https://arxiv.org/abs/TBD) accepted at CVPR 2025.
+Our paper ["Omnia de EgoTempo: Benchmarking Temporal Understanding of Multi-Modal LLMs in Egocentric Videos"](https://arxiv.org/abs/2503.13646) accepted at CVPR 2025.
